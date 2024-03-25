@@ -53,10 +53,17 @@ body, html {
     transition: transform 300ms;
 }
 
+.img-wrapper {
+    background-color: red;
+    width: 100%;
+    flex: 1;
+}
+
 .nav-bar img {
     margin-top: 2em;
     width: 80%;
-    flex: 1;
+    margin: 1em;
+    
     max-width: 500px;
     height: auto;
 }
