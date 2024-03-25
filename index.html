@@ -1,10 +1,54 @@
-<html lang="en">
+<html lang="cz">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <link rel="stylesheet" href="nav-bar.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Milan Sobotka</title>
 </head>
 <body>
-    Milan Sobotka - něco napíšu
+    <div class="page">
+        <div class="nav-bar nav-hidden" id="nav-bar">
+            <img src="images/milan_nav.png" alt="milan v navigaci">
+            <div class="links">
+                <a href="">Vzpomínky kolegů a přátel</a>
+                <a href="">Audio: Rozhovory s M. Sobotkou (V. Mašek)</a>
+                <a href="">Média, články, odkazy</a>
+                <a href="">Fotografie</a>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Milan Sobotka</h1>
+            <p><b>23.07.1927 – 22.03.2024</b></p>
+            <p>S litosti oznamujeme, ze dne 22.3.2024 zemrel Milan Sobotka, predni cesky filosof a vysokoskolsky pedagog. 
+                Rozhodli jsme se vytvorit prostor pro snimky, vzpominky, a spolecne sdileni na techto strankach. Milane, vzpominame na Tebe a prejeme Ti radost a pokoj. 
+                Tomas Sobotka (syn) s rodinou.</p>
+            <a href="" class="informace-pohreb">Informace o pohřbu</a>
+            <div class="condolence-row">
+                <img src="images/milan_a_zdenka.png" alt="milan a zdenka">
+                <a href="">Kondolenční kniha</a>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="page">
+        druha
+    </div> -->
+    <div class="nav-bar-button" onclick="nav_button()">B</div>
 </body>
 </html>
+
+
+<script>
+    function nav_button() {
+        ele = document.getElementById("nav-bar")
+        if (ele.classList.contains("nav-hidden")) {
+            ele.classList.remove("nav-hidden")
+            ele.classList.add("nav-shown")
+            document.body.classList.add("stop-scrolling")
+        } else {
+            ele.classList.add("nav-hidden")
+            ele.classList.remove("nav-shown")
+            document.body.classList.remove("stop-scrolling")
+        }
+    }
+</script>
