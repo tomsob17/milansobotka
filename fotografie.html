@@ -27,6 +27,26 @@
         </div>
         <div class="content">
             <p>Fotografie</p>
+            <div class="grid">
+                <img src="images/fotografie/1998_Milan Sobotka_svatba Marie.JPG" alt="1998_Milan Sobotka_svatba Marie.JPG">
+                <img src="images/fotografie/2009_Milan Sobotka.jpg" alt="2009_Milan Sobotka.jpg">
+                <img src="images/fotografie/2009-2010_Milan Sobotka (2).jpg" alt="2009-2010_Milan Sobotka (2).jpg">
+                <img src="images/fotografie/2009-2010_Milan Sobotka.jpg" alt="2009-2010_Milan Sobotka.jpg">
+                <img src="images/fotografie/2010_Milan Sobotka se snachou Irenou.jpg" alt="2010_Milan Sobotka se snachou Irenou.jpg">
+                <img src="images/fotografie/2010_Milan Sobotka se synem Tomasem.jpg" alt="2010_Milan Sobotka se synem Tomasem.jpg">
+                <img src="images/fotografie/2010_Milan Sobotka se synovcem Ivanem Domesem.jpg" alt="2010_Milan Sobotka se synovcem Ivanem Domesem.jpg">
+                <img src="images/fotografie/2010_Zdenka Vorlova + Milan Sobotka.JPG" alt="2010_Zdenka Vorlova + Milan Sobotka.JPG">
+                <img src="images/fotografie/2012 Zdenka Vorlova + Milan Sobotka.jpg" alt="2012 Zdenka Vorlova + Milan Sobotka.jpg">
+                <img src="images/fotografie/2012_Milan Sobotka s vnuckou.jpg" alt="2012_Milan Sobotka s vnuckou.jpg">
+                <img src="images/fotografie/2012_Milan Sobotka se synem a rodinou.jpg" alt="2012_Milan Sobotka se synem a rodinou.jpg">
+                <img src="images/fotografie/2014_Milan Sobotka s manzelkou Zdenkou a Helenou Domesovou.JPG" alt="2014_Milan Sobotka s manzelkou Zdenkou a Helenou Domesovou.JPG">
+                <img src="images/fotografie/2015_Milan Sobotka se synem a rodinou.JPG" alt="2015_Milan Sobotka se synem a rodinou.JPG">
+                <img src="images/fotografie/2017_Milan Sobotka_2.jpg" alt="2017_Milan Sobotka_2.jpg">
+                <img src="images/fotografie/2017_Milan Sobotka_se sestrou Libusi pri 90. narozeninach.JPG" alt="2017_Milan Sobotka_se sestrou Libusi pri 90. narozeninach.JPG">
+                <img src="images/fotografie/Milan Sobotka s manzelkou Zdenkou a synem.jpg" alt="Milan Sobotka s manzelkou Zdenkou a synem.jpg">
+                <img src="images/fotografie/Milan Sobotka_pasove fotografie_ruzne (1).jpg" alt="Milan Sobotka_pasove fotografie_ruzne (1).jpg">
+                <img src="images/fotografie/Milan Sobotka_se synem Tomasem_ca 1975.jpg" alt="Milan Sobotka_se synem Tomasem_ca 1975.jpg">
+            </div>
         </div>
     </div>
     <div class="nav-bar-button" onclick="nav_button()"><div class="hamburger" id="hamburger"></div></div>
@@ -49,3 +69,17 @@
         }
     }
 </script>
+
+<style>
+    .grid {
+        display: grid;
+        gap: 1em;
+        align-items: center;
+    }
+
+    @media (min-width: 1000px) { 
+        .grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+</style>
