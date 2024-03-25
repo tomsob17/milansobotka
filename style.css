@@ -18,13 +18,10 @@ body {
 }
 
 .page {
-    /* height: 100dvh; */
     width: 100dvw;
-    /* background-color: lightblue; */
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     text-align: center;
     color: #163e65;
 }
@@ -35,6 +32,7 @@ body {
     margin: 1em;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1em;
 }
 
