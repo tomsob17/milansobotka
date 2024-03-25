@@ -53,10 +53,20 @@ body, html {
     transition: transform 300ms;
 }
 
+
 .img-wrapper {
     width: 100%;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
 }
+
+.img-wrapper a {
+    padding: 0em !important;
+}
+
 
 .nav-bar img {
     margin-top: 2em;
