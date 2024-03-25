@@ -39,7 +39,7 @@
     <!-- <div class="page">
         druha
     </div> -->
-    <div class="nav-bar-button" onclick="nav_button()">B</div>
+    <div class="nav-bar-button" onclick="nav_button()"><div class="hamburger" id="hamburger"></div></div>
 </body>
 </html>
 
@@ -51,10 +51,12 @@
             ele.classList.remove("nav-hidden")
             ele.classList.add("nav-shown")
             document.body.classList.add("stop-scrolling")
+            document.getElementById("hamburger").classList.add("hamburger_check")
         } else {
             ele.classList.add("nav-hidden")
             ele.classList.remove("nav-shown")
             document.body.classList.remove("stop-scrolling")
+            document.getElementById("hamburger").classList.remove("hamburger_check")
         }
     }
 </script>
