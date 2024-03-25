@@ -35,8 +35,8 @@ body, html {
 }
 
 .nav-bar-button:hover {
-    background-color: #ff5f03;
-    border-color: black;
+    /* background-color: #ff5f03; */
+    /* border-color: black; */
 }
 
 .nav-bar {
@@ -67,6 +67,7 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
+    padding: 0 1em;
     gap: 1em;
 }
 
