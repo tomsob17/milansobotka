@@ -27,7 +27,7 @@ body {
 }
 
 .content {
-    height: 100dvh;
+    /* height: 100dvh; fakt nemuze byt*/ 
     flex: 1.5;
     margin: 1em;
     display: flex;
